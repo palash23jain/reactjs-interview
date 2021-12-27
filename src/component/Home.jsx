@@ -1,15 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
+import Employee from './Employee';
 
-class Home extends Component {
-
-    constructor(props) {
-        super(props);
-    }
-  
-    render() {
-        return ( <h2 className="text-center">Home</h2>);
-    }
-
+const Home = () => {
+    return(
+        <div>
+            <h1>Home</h1>
+            <Employee/>
+        </div>
+    )
 }
+
 
 export default Home;
